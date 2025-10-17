@@ -13,13 +13,23 @@
         <li class="item"></li>
         <li class="item"></li>
         <li class="item"></li>
+        <button id="botao">+</button>
+        <p id="numero">0</p>
         
     </ol>
     <script>
+        let botao = document.getSelection("#botao")
+        let numero = document.getElementById("numero")
+        botao.addEventListener("click", () => {
+            numero.textContent = Number ( numero.textContent) + 1
+        })
+
+
         let titulo = document.getElementById("titulo")
         let item = document.getElementsByClassName("item")
         titulo.textContent = "Novo titulo"
         titulo.style.color = "red"
+
         for(let c = 0; c <= item.length; c++){
             item [c]. textContent = "Novo item" + c
         }
