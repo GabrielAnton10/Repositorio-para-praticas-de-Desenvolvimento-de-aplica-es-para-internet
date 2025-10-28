@@ -1,0 +1,13 @@
+#Titulo{
+    text-align: center;
+    margin-top: 20px;   
+}
+#Caixa{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
